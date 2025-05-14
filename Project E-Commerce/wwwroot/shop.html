@@ -1,0 +1,536 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locallyco</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://kit.fontawesome.com/140e7b4796.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a class="logo" href="#" onclick="window.location.href='/Products/Index';">
+            <span class="black-part">Locall</span><span class="yellow-part">y</span><span class="red-part">co</span>
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="/Products/Index">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"> <i class="fa-solid fa-xmark"></i> </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+            <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </section>
+
+    <section id="page-header">
+
+        <h2>#Stay Local</h2>
+        <p>Save more with coupons & up to 70% off!</p>
+
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro" onclick="goToDetails('/img/products/f1.jpg')">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f2.jpg')">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+
+            <div class="pro" onclick="goToDetails('img/products/f3.jpg')">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f4.jpg')">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f5.jpg')">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f6.jpg')">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Stylish jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f7.jpg')">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Pantalon</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="goToDetails('img/products/f8.jpg')">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Flowered Blouse</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Skyline Breeze Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Midnight Grid Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Classic Cloud White Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Urban Jungle Print Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n5.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Denim Ease Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n6.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Seaside Striped Shorts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n7.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Sahara Utility Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/products/n8.jpg" alt="">
+                <div class="menu-wrapper" onclick="event.stopPropagation();">
+                    <button class="dots-btn" onclick="toggleMenu(event, this)">⋮</button>
+                    <ul class="dropdown-menu">
+                        <li onclick="handleUpdate(event)">Update</li>
+                        <li onclick="handleDelete(event)">Delete</li>
+                        <li onclick="handleAdd(event)">Add</li>
+                    </ul>
+                </div>
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Charcoal Chill Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">  <i class="fal fa-long-arrow-alt-right"></i>  </a>
+    </section>
+
+
+    <section id="newsletters" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign Up Now</h4>
+            <p>to get E-mail updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <span class="black-part">Locall</span><span class="yellow-part">y</span><span class="red-part">co</span>
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>562 Glory Road, Street 6, Barcelona</p>
+            <p> <strong>Phone: </strong>(+20) 1281106509</p>
+            <p> <strong>Hours: </strong>10:00 to 6:00, Sun - Wed </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Informations</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@ 2025, Locallyco.com</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

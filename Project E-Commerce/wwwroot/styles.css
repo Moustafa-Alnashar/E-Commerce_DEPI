@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    background-image: url('drew-coffman-1872.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.div-img1{
+    width: 200px;
+    height: 10px;
+}
+.div-img1 img{
+    width: 100%;
+    border: none;
+}
+.nav-class{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-ul{
+    display: flex;
+    margin-top: 10px;
+
+}
+.nav-li{
+    list-style: none;
+    margin-left: 15px;
+}
+.nav-li a{
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: none;
+    list-style: none;
+    color: #f8f6f6;
+    margin: 10px;
+}
+.img-1{
+    text-decoration: none;
+    color: rgb(238, 242, 246);
+}
+.img-1:hover{
+    color:  rgb(134, 104, 64);
+    list-style: none;
+}
+.main-continer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-continer h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-style:oblique;
+}
+.main-continer h1{
+    color: aliceblue;
+    font-style:oblique;
+    font-size: 60px;
+
+}
+.main-continer p{
+    color: aliceblue;
+    font-style:oblique;
+    font-size: 25px;
+    width: 50%;
+}
+.p-page1{
+    width: 100%;
+}
+.btn1{
+    padding: 15px 28px;
+    color: aliceblue;
+    background-color: rgb(131, 105, 71);
+    border-style:none ;
+    font-size: 15px;
+    border-radius: 6%;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    padding: 15px 28px;
+    color: rgb(17, 17, 18);
+    background-color: rgb(242, 239, 236);
+    border-style:none ;
+    font-size: 15px;
+    border-radius: 6%;
+    cursor: pointer;
+
+}
+.btn2{
+padding: 15px 28px;
+background-color: transparent; 
+color: aliceblue;
+border-radius: 6%;
+border-style: solid;
+font-size: 15px;
+border-color: aliceblue;
+cursor: pointer;
+
+}
+.btn2:hover{
+    background-color:rgb(242, 239, 236);
+    border-style:none ;
+    color: rgb(18, 19, 19);
+    border-radius: 5%;
+    border-style: solid;
+
+    font-size: 15px;
+    border-color: aliceblue;
+    cursor: pointer;
+    
+    }
+
+
+    /*--------- second section -----------------*/
+    .sec-page{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%; 
+        height: 100vh; 
+    }
+    .img2{
+        width: 100%;
+
+    }
+    .div-img2{
+        width: 100%;
+        padding: 100px;
+    }
+    .info{        
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-page h1{
+        font-size: 30px;
+        color: #67654d;
+        font-style:inherit;
+        margin: 55px 0;
+    }
+
+    .desc p{
+        font-size: 20px;
+        color: rgb(143, 127, 106);
+        margin-bottom: 20px;
+        
+
+    }
+    .ul-sec{
+        display: flex;
+        flex-direction: column;
+        color: rgb(143, 127, 106);
+        list-style: none;
+
+    }
+    .ul-sec i {
+        size: 55px;
+    }
+    .li-sec{
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+    }
+    .icons{
+        width: 40px;
+        height: 40px;
+        border: 1px solid  rgb(143, 127, 106); 
+        border-radius: 10ch;
+        
+    }
+    .li-text{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+
+        /*  thierd section */
+    .third-page{
+        background-color: rgb(238, 238, 236);
+    }
+    .sec-3{     
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        margin:0px 50px;
+    }
+    .sec-3 h1 {
+        font-size: 25px;
+        color: #000000;
+        font-style: oblique;
+    }
+    .img3{
+        width: 100%;
+
+    }
+    .div-img3{
+        width: 100%;
+        padding: 50px;
+    }
+    .sec-3 p{
+        font-size: 17px;
+        color: #67654d;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .text-sec3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 150px;
+    }
+
+ /*   fourth-page     */
+    .fourth-page{
+        height: 100vh;
+    }
+    .sec-4{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;        
+    }
+    header{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    header p{
+        color: rgb(68, 68, 73);
+        font-size: 15px;
+        font-style: inherit;
+        margin-top: 20px;        
+    }
+    .main-items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .main-items img{
+        width: 100%;
+    }
+
+    header h1{
+        align-self: center;
+        font-size: 25px;
+        color:black;
+    }
+    header p {
+        align-self: center;
+        color: #67654d;
+
+    }
+    .items{        
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .items h1{
+        color: #000000;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+
+    /*  fifth-page    */
+    .fifth-page{
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .conct-info{
+        font-size: 30px;
+        color: #716f57;
+        margin: 50px;
+        top: 100px;
+    }
+    .conct-info h1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 35px;
+    }
+    .conct-info p{
+        width: 50%;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .li-text5{
+        padding: 10px;
+    }
+    .icons-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .ul-fifth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(114, 114, 88);
+        width: 100%;
+        align-items: flex-start;
+    }
+    .li-fifth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .img-icons-5{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #94906b;
+    }
+ 
+
+
+    /*  sixth-page"    */
+    .footer-1{
+        width: 100%;
+        height: 500px;
+        background-color: #49483d;
+    }
+    .sixth-page {
+        font-size: 20px;
+        color: #a7a589;
+        font-style:inherit;
+    }
+    .sixth-page h1{
+        font-size: 20px;
+        color: #dddccc;
+        padding: 10px;
+    }
+
+.continer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content1 p {
+    color: #a7a589;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 45px;
+
+}
+
+.ul-cont-2{
+        display: flex;
+        flex-direction: column;
+        list-style: none; 
+    }
+    .l-cont-2 a{
+        text-decoration: none;
+    }
+    .ul-cont-2 li{
+        margin: 15px  0;
+        text-decoration: none;       
+
+    }
+    .content2 ul li{
+        color:#a7a589 ;
+        font-size: 15px;
+    }
+    .ul-content3{
+        display: flex;
+        flex-direction: column;
+    }
+    .ul-content3 li{
+        color:#a7a589 ;
+        font-size: 15px;
+        list-style: none;
+        margin: 15px  0;
+
+    }
+    .content4{
+        width: 200px;
+        margin: 50px;
+    }
+    .content4 ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content4 ul li{
+        color:#a7a589 ;
+        font-size: 15px;
+    }
+    .img-cont-4{
+        width: 100%;
+    }
+    .li-fifth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .img-icons-6{
+        width: 40px;
+        height: 40px;
+    }
+   /* footer 2*/
+    .footer-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #272723;
+    width: 100%;
+    }
+    .content-6{
+        margin: 50px;
+    }
+
+    .footer-2 p{
+        padding-left:45px ;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   }
+   .img-footer2{
+
+   } 
+   .ul-sixth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   .li-logo{
+    list-style: none;
+    border-radius: 50%;
+    background-color: #49483d;
+    margin: 10px;
+   }
+
+   .icons-logo{
+    width: 40px;
+    height: 40px;
+   }   
+
+
+
+
+
+
+

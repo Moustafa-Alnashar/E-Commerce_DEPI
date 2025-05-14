@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Project_E_Commerce</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AddtoCartController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\_Layout2.cshtml" />
+    <Content Remove="wwwroot\styles.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\index.html" />
+    <None Remove="Views\Shared\_Layout2.cshtml.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\about.html" />
+    <None Include="wwwroot\cart.html" />
+    <None Include="wwwroot\contact.html" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\img\about\1.mp4" />
+    <None Include="wwwroot\img\about\a1.png" />
+    <None Include="wwwroot\img\about\a2.jpg" />
+    <None Include="wwwroot\img\about\a3.png" />
+    <None Include="wwwroot\img\about\a4.png" />
+    <None Include="wwwroot\img\about\a5.jpg" />
+    <None Include="wwwroot\img\about\a6.jpg" />
+    <None Include="wwwroot\img\about\banner.png" />
+    <None Include="wwwroot\img\banner\b1.jpg" />
+    <None Include="wwwroot\img\banner\b10.jpg" />
+    <None Include="wwwroot\img\banner\b14.png" />
+    <None Include="wwwroot\img\banner\b16.jpg" />
+    <None Include="wwwroot\img\banner\b17.jpg" />
+    <None Include="wwwroot\img\banner\b18.jpg" />
+    <None Include="wwwroot\img\banner\b19.jpg" />
+    <None Include="wwwroot\img\banner\b2.jpg" />
+    <None Include="wwwroot\img\banner\b20.jpg" />
+    <None Include="wwwroot\img\banner\b4.jpg" />
+    <None Include="wwwroot\img\banner\b7.jpg" />
+    <None Include="wwwroot\img\blog\b1.jpg" />
+    <None Include="wwwroot\img\blog\b2.jpg" />
+    <None Include="wwwroot\img\blog\b3.jpg" />
+    <None Include="wwwroot\img\blog\b4.jpg" />
+    <None Include="wwwroot\img\blog\b5.jpg" />
+    <None Include="wwwroot\img\blog\b6.jpg" />
+    <None Include="wwwroot\img\blog\b7.jpg" />
+    <None Include="wwwroot\img\button.png" />
+    <None Include="wwwroot\img\features\f1.png" />
+    <None Include="wwwroot\img\features\f2.png" />
+    <None Include="wwwroot\img\features\f3.png" />
+    <None Include="wwwroot\img\features\f4.png" />
+    <None Include="wwwroot\img\features\f5.png" />
+    <None Include="wwwroot\img\features\f6.png" />
+    <None Include="wwwroot\img\hero4.png" />
+    <None Include="wwwroot\img\heroyemen.jpg" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\pay\app.jpg" />
+    <None Include="wwwroot\img\pay\pay.png" />
+    <None Include="wwwroot\img\pay\play.jpg" />
+    <None Include="wwwroot\img\people\1.png" />
+    <None Include="wwwroot\img\people\2.png" />
+    <None Include="wwwroot\img\people\3.png" />
+    <None Include="wwwroot\img\products\f1.jpg" />
+    <None Include="wwwroot\img\products\f2.jpg" />
+    <None Include="wwwroot\img\products\f3.jpg" />
+    <None Include="wwwroot\img\products\f4.jpg" />
+    <None Include="wwwroot\img\products\f5.jpg" />
+    <None Include="wwwroot\img\products\f6.jpg" />
+    <None Include="wwwroot\img\products\f7.jpg" />
+    <None Include="wwwroot\img\products\f8.jpg" />
+    <None Include="wwwroot\img\products\n1.jpg" />
+    <None Include="wwwroot\img\products\n2.jpg" />
+    <None Include="wwwroot\img\products\n3.jpg" />
+    <None Include="wwwroot\img\products\n4.jpg" />
+    <None Include="wwwroot\img\products\n5.jpg" />
+    <None Include="wwwroot\img\products\n6.jpg" />
+    <None Include="wwwroot\img\products\n7.jpg" />
+    <None Include="wwwroot\img\products\n8.jpg" />
+    <None Include="wwwroot\img\WhatsApp Image 2025-04-25 at 5.41.14 AM.jpeg" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\js\script.js" />
+    <None Include="wwwroot\shop.html" />
+    <None Include="wwwroot\sproduct.html" />
+  </ItemGroup>
+
+</Project>
